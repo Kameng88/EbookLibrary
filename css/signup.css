@@ -1,0 +1,138 @@
+body{
+	font-weight: 100;
+}
+/*Login*/
+.signupbackground{
+	width:50%;
+	height: 100%;
+	margin:0;
+	padding: 0;
+
+}
+
+.signupbackground img{
+	position: absolute;
+	left:0;
+	width: auto;
+	height:100%;
+	overflow: hidden;
+}
+.signup{
+	padding: 0;
+	margin:0;
+	width: 50%;
+	height:100%;
+	text-align: center;
+	background:-webkit-gradient(linear, right bottom, left top, from(#3a7bd5), to(#00d2ff));
+}
+
+.signup h3{
+	margin-top: 15%;
+	margin-bottom: 10%;
+}
+
+.signup input{
+	width: 250px;
+	margin: 5% 10% 0% 10%;
+	padding: 10px;
+	background: transparent;
+	border: 0;
+    height: 40px;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    font-size: 17px;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+   font-size: 15px;
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+   font-size: 15px;
+}
+
+.signuplabel{
+	display:inline-block;
+}
+.radio{
+	display:none;
+	margin: auto;
+	text-align: center;
+}
+.radioInput{
+	background-color:transparent;
+	border:1px solid rgba(255,255,255,0.8);
+	border-radius:100%;
+	display:inline-block;
+	height:13px;
+	margin-right:10px;
+	vertical-align:middle;
+	width:13px;
+	line-height:1;
+}
+
+.radio:checked + .radioInput:after{
+	background-color:#fff;
+	border-radius:100%;
+	content:"";
+	display:inline-block;
+	height:7px;
+	margin:2px;
+	width:7px;
+}
+.checkbox.radioInput,.radio:checked + .checkbox.radioInput:after{
+	border-radius:0;
+}
+
+h6{
+}
+
+a{
+	color: #fff;
+	opacity: 0.75;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#fff;
+	opacity: 1;
+	text-decoration: none;
+}
+
+.term{
+	color:#fff;
+	opacity: 1;
+	text-decoration: underline;
+}
+
+.term:hover{
+	text-decoration: underline;
+	color:#00a8ff;
+	opacity: 1;
+}
+
+
+
+.signup button[type=submit]{
+	width: 180px;
+	margin: 5% 10% 0% 10%;
+	padding: 10px;
+	background-color: #fff;
+	color:#00a8ff;
+	border: 0;
+    height: 42px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 17px;
+}
+
+.signup button[type=submit]:hover{
+	background-color:#00d2ff;
+	color:#fff;
+    outline: none;
+
+}
+

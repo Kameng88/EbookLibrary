@@ -1,0 +1,887 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssc.css);
+
+html,body {
+	color: #fff;
+	margin:0;
+	padding:0;
+	height:100%;
+	vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family:'Noto Sans SC', sans-serif;
+	font-weight: 100;
+	letter-spacing: 0.1em;
+}
+
+h1,h2{
+	line-height: 60px;
+}
+
+h3,h4{
+	line-height: 40px;
+}
+
+h4{
+	line-height: 30px;
+}
+
+h5,h6{
+	line-height:20px;
+}
+
+h1 {
+	font-size: 72px;
+}
+
+h2 {
+	font-size: 57px;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h5 {
+	font-size: 17px;
+}
+
+h6 {
+	font-size: 13px;
+}
+
+p {
+	font-size: 15px;
+	font-weight: 200;
+}
+
+a{
+	font-weight: 100;
+	margin: 0;
+	padding:0;
+}
+
+.left{
+	text-align: left;
+}
+
+.center{
+	text-align: center;
+}
+
+.right{
+	text-align: right;
+}
+
+
+.clear {
+	clear: both;
+}
+.maincontainer {
+	width: 100%;
+	z-index: 10;
+	height:100%;
+	position: relative;
+	padding: 0;
+	margin:0;
+	vertical-align: middle;
+}
+
+
+.fade {
+  margin: 0;
+  position: relative;
+  opacity: 1;
+}
+
+.show{
+	opacity: 0;
+}
+
+
+
+.section {
+	width: 100%;
+	position: relative;
+	margin: 0 0;
+	padding: 0;
+}
+
+
+.inner {
+	width: 100%;
+	position: relative;
+	padding:0;
+}
+
+.inner:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.subMenu {
+	height: 65px;
+	z-index:1000;
+	width: 100%;
+	padding:0 5%;
+	background:-webkit-gradient(linear, left bottom, right top, from(#3a7bd5), to(#00d2ff));
+}
+
+.subMenu .inner {
+	padding:0;
+	margin: 0;
+}
+
+
+.subNavBtn {
+	display: block;
+	height: 65px;
+	width:95px;
+	float: left;
+	margin: 0 0;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 100;
+	padding: 23px 0 0 0;
+	text-align: center;
+	color: #fff;
+}
+.subMenu a:hover {
+	color:#fff;
+	text-decoration: none;
+	border-bottom: 2px solid #fff;
+}
+
+.subMenu a:link{
+	color:#fff;
+	text-decoration: none;
+}
+
+.active {
+	color:#fff;
+	border-bottom: 2px solid #fff;
+}
+.end {
+	margin: 0;
+}
+
+.btn{
+	padding:0;
+	margin:0px;
+}
+
+.menuButton{
+	float: right;
+	margin-top: 23px;
+	margin-right: 20px;
+}
+
+.btn a{
+	color:#fff;
+	font-size: 15px;
+	border: 1px solid #fff;
+	padding:8px 25px 8px 25px;
+	text-decoration: none;
+	border-radius: 2px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-weight: 300;
+}
+
+.btn a:hover {
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+	background-color: #fff;
+	color:#00a8ff;
+}
+
+.menuButton .active {
+	border-bottom: 1px solid #fff;
+}
+
+
+
+
+
+/* sTop */
+.sTop {
+	background:#fff;
+	padding:0;
+	background:url('../img/topbackground.jpg');
+	background-size: cover;
+}
+
+.sTop .inner{
+	height:100%;
+	background:-webkit-gradient(linear, left bottom, right top, from(#3a7bd5), to(#00d2ff));
+	opacity: 0.85;
+	padding: 5%;
+	vertical-align: middle;
+}
+
+.navbar{
+	padding-top: 25px;
+}
+
+.sTop .content{
+	width: 100%;
+	height: 100%;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.sTop .content h1{
+	padding: 6% 0 3% 0;
+}
+
+.sTop .content h3{
+	padding: 0% 0 5% 0;
+}
+
+.sTop .btn a{
+	font-size: 16px;
+	padding:12px 40px;
+}
+
+.sTop .content{
+	padding:15% 5%;
+}
+
+/* features */
+
+.features {
+	
+	overflow: hidden;
+}
+
+.features .inner{
+	padding: 0%;
+	background:url('../img/featuresbackground.jpg');
+	background-size: cover;
+}
+
+.featuresdetail {
+	padding: 5%;
+}
+
+
+.features .title{
+	padding-left: 5%;
+}
+
+.features .title h4{
+	color:#00a8ff;
+	font-weight: 300;
+}
+
+.features .title h3{
+	color:#00273b;
+}
+
+.features .content {
+	padding: 0% 5%;
+}
+
+
+.features .content .feature{
+	padding: 20px 30px;
+
+}
+
+.features .content h5{
+	color:#00273b;
+	margin-left: 2px;
+	padding-left: 15px;	
+	border-left: 2px solid #00a8ff;
+}
+
+.features .content h6{
+	color: #00273b;
+}
+
+
+/* subscribe */
+.subscribe {
+	background:url('../img/subscribebackground.jpg');
+	background-size:cover;
+	background-position: 50% 50%;
+	padding:0;
+	margin: 0;
+}
+
+.subscribe .background{
+	background:-webkit-gradient(linear, 0 top, 0 bottom, from(rgba(58,123,213,0.8)), to(rgba(0,210,255, 0.8)));
+	height:100%;
+}
+
+.subscribe .inner{
+	padding:5%;
+	height:100%;
+}
+
+.subscribe .title{
+
+}
+
+.subscribe .title h4{
+	font-weight: 300;
+	color:#fff;
+}
+
+.subscribe .title h3{
+	margin-bottom: 0px;
+}
+
+.subscribe .content{
+	padding: 5% 10%;
+
+}
+
+
+.hovereffect {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    border: 5px solid rgba(0,0,0,0);
+}
+.hovereffect .overlay {
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    height:100%;
+    background: rgba(255,255,255,0.9);
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    width:100%;
+    height:auto;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+
+
+.hovereffect h3 {
+    color: #00a8ff;
+    text-align: center;
+    position: relative;
+    padding: 25%;
+    margin: 0px;
+    font-weight: 300;
+    display: inline-block;
+}
+
+
+.hovereffect h3{
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,200%,0);
+    transform: translate3d(0,200%,0);
+}
+
+
+.hovereffect:hover .overlay,
+.hovereffect:hover h3 {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
+.hovereffect:hover {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.subscribe .informationInput{
+	background-color: rgba(0, 168, 255,0.85);
+	text-align: center;
+	position: absolute;
+	bottom:0;
+	left:0;
+	width: 100%;
+	height:80px;
+	padding:15px;
+}
+
+.informationInput input{
+	max-width: 350px;
+	min-width: 260px;
+	margin: 0px 0;
+	margin-top: 5px;
+	margin-right: 0;
+	padding: 20px;
+	background: white;
+	border: 0;
+    height: 43px;
+    outline: none;
+    border: 2px solid #fff;
+    font-size: 17px;
+    outline: none;
+    color:#00273d;
+    border-radius: 2px;
+}
+
+
+.informationInput button{
+	width: 140px;
+	padding: 10px;
+	background-color:#fff;
+	color:#00a8ff;
+	border: 0;
+    height: 44px;
+    outline: none;
+    font-size: 17px;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+.informationInput button:hover{
+	opacity: 0.85;
+    outline: none;
+}
+
+. a {
+	color: #fff;
+}
+
+
+
+/* advantages */
+.advantages {
+	background-color: #fff;
+}
+
+.advantages .inner{
+	margin: 0;
+	padding:5%;
+}
+
+.advantages .title{
+	padding: 0 5%;
+	padding-right: 10%;
+}
+
+.advantages .title h4{
+	color:#00a8ff;
+	font-weight: 300;
+}
+
+.advantages .title h3{
+	color:#00273b;
+}
+
+.advantages .factor{
+	padding:5% 2%;
+}
+
+.advantages .factor img{
+	width: 90px;
+	padding: 30px 0;
+}
+
+.advantages .factor h5{
+	color:#00a8ff;
+}
+
+.advantages .factor h6{
+	color:#00273b;
+	padding: 0 7%;
+}
+
+
+/* about */
+.about {
+	background:url('../img/aboutbackground.png');
+	background-size: cover;
+	padding: 0;
+}
+
+
+.about .inner{
+	background:-webkit-gradient(linear, 0 bottom, 0 top, from(rgba(58,123,213,0.8)), to(rgba(0,210,255, 0.8)));
+	height:100%;
+	padding:5%;
+}
+
+.about .content{
+	padding:0 5%;
+}
+
+.about .introduction{
+	padding:5% 5%;
+}
+
+.about .description h2{
+	padding-bottom: 55px;
+	border-bottom: 1px solid #fff;
+	padding-right: 0;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.about .description h5{
+	line-height: 25px;
+	padding: 0 15px;
+}
+
+
+.about .contact{
+	margin:0;
+	margin-left:20px;
+	margin-top: 50px;
+}
+
+.about .contact .place{
+	padding-bottom: 5px;
+}
+
+.about .contact .place img{
+	float:left;
+	height:22px;
+	margin-right:7%;
+	margin-left: 1%;
+}
+
+.about .contact .email{
+	padding-bottom: 5px;
+}
+
+.about .contact .email img{
+	float:left;
+	width:20px;
+	margin-top: 2%;
+	margin-right:7%;
+}
+
+.about .contact .phone{
+	padding-bottom: 5px;
+}
+
+.about .contact .phone img{
+	float:left;
+	width:20px;
+	margin-right: 7%;
+
+}
+
+.about .contact h6{
+	font-size: 13px;
+} 
+
+.plan{
+	padding:0 5%;
+	z-index: 0;
+}
+
+.plan .background{
+	background-color: #fff;
+	opacity: 0.95;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	box-shadow: 0px 1px 6px #888;
+}
+
+
+.plan .plandetail{
+
+}
+
+.plan .plandetail h1{
+	color:#00a8ff;
+	padding:25px;
+}
+
+.plan .plandetail h5{
+	color:#00a8ff;
+	padding-top: 5px;
+	font-size: 19px;
+}
+
+.plan .description{
+	color:#00273b;
+	padding-top: 45px;
+	padding-bottom: 80px;
+
+}
+
+.plan .description h5{
+	font-size: 14px;
+	margin: 0;
+}
+
+.plan .planbutton{
+	padding-bottom: 60px;
+}
+.plan .button{
+	background-color:#00a8ff;
+	text-decoration:none;
+	color:#fff;
+	font-size: 17px;
+	font-weight: 200;
+	padding: 12px 60px 12px 60px;
+	border-radius: 2px;
+}
+
+.plan .button:hover{
+	color:#fff;
+	opacity: 0.75;
+}
+
+
+/* footer */
+.footer{
+	padding:0 5%;
+}
+.footer .content{
+	padding:1%;
+}
+
+.footer a{
+	color:#00273b;
+	font-size: 15px;
+}
+
+.footer a:hover{
+	color:#00a8ff;
+	text-decoration: none;
+}
+
+.share img{
+	height:30px;
+	padding: 0 10%;
+}
+
+.share img:hover{
+	opacity: 0.75;
+}
+.term{
+	text-align: right;
+		padding-top:5px;
+}
+
+.term p{
+	color:#00273b;
+}
+
+.copyright{
+	text-align: center;
+	padding-top:5px;
+}
+
+
+
+
+@media(max-width: 992px){
+
+	.features{
+		padding:0;
+	}
+
+	.featuresdetail{
+		padding:7% 5%;
+		background-color: rgba(255,255,255,0.93);
+	}
+	.features .content .feature{
+	padding: 30px 20px;
+	}
+	.subscribe .content{
+	padding: 8% 10%;
+	}
+
+	.advantages .factor{
+	padding:7% 2%;
+	}
+	.hovereffect {
+    height: 250px;
+    border: 7px solid rgba(0,0,0,0);
+	}
+	.hovereffect img{
+	min-height: 250px;
+	}
+
+	.about {
+		background-position: 60%;
+	}
+	.about .inner{
+	padding:7% 3%;
+	}
+	.about .plan{
+	padding:5% 0%;
+	padding-right: 3%;
+	}
+	.footer .content{
+	padding:2%;
+}
+
+}
+
+
+@media(max-width: 768px){
+
+
+.mobileLeft{
+	text-align: left;
+}
+
+.mobileCenter{
+	text-align: center;
+}
+
+.mobileRight{
+	text-align: right;
+}
+
+	h1,h2,h3,h4,h5,h6{
+		line-height: normal;
+	}
+
+	h1{
+		font-size: 50px;
+		
+	}
+
+	h2{
+		font-size: 35px;
+	}
+	h3{
+		font-size: 23px;
+		line-height: 23px;
+	}
+	h4{
+		font-size: 19px;
+	}
+	h5{
+		font-size: 16px;
+	}
+	h6{
+		font-size: 14px;
+	}
+
+.sTop h3{
+	line-height: 30px;
+}
+.sTop .btn a{
+	margin:0;
+}
+.features .inner{
+	background-position: 100%;
+}
+
+.featuresdetail{
+	padding: 7% 10%;
+}
+
+.features .content {
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+
+.features .content .feature {
+    padding: 10px 20px;
+}
+
+.subscribe .hovereffect h3{
+	line-height: 30px;
+}
+
+.advantages .content{
+	padding: 7% 0;
+}
+
+.advantages .factor{
+	padding:5% 15%;
+}
+
+.about {
+		background-position: 60%;
+}
+.about .introduction {
+    padding: 5% 10%;
+}
+
+.about .plan {
+    padding: 5% 18%;
+}
+
+
+.footer a{
+	color:#00273b;
+	font-size: 15px;
+}
+
+.footer a:hover{
+	color:#00a8ff;
+	text-decoration: none;
+}
+.share{
+	text-align: center;
+	padding-top:15px;
+}
+
+.share img{
+	padding:0 2%;
+}
+
+.share img:hover{
+	padding:0 2%;
+	opacity: 0.75;
+}
+.term{
+	text-align: center;
+	padding-top:15px;
+}
+
+.copyright{
+	text-align: center;
+	padding-top:5px;
+}
+
+
+}
+
+@media(max-width: 550px){
+
+	.sTop .btn a {
+    	font-size: 15px;
+    	padding: 10px 20px;
+    	margin: 5px;
+	}
+
+	.subscribe .informationInput {
+    height: 155px;
+    padding: 20px 30px;
+}
+
+.informationInput button {
+    margin-top: 10px;
+    max-width: 350px;
+	min-width: 260px;
+    height: 50px;
+}
+
+.about .plan{
+	padding:5% 10%;
+}
+	
+}
